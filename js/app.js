@@ -11,13 +11,20 @@ let number = 0
 
 for (let i= 0; i < 100; i++) {
     
-    
     number = number + 1
     
     // console.log (number)
+
+    // Dichiaro una variabile per vedere se multiplo di 3
     
     const a = number % 3
+
+    // Dichiaro una variabile per vedere se multiplo di 5
+
     const b = number % 5
+
+    // Dichiaro una variabile per vedere se multiplo sia di 3 che di 5
+
     const c = number % 15
 
     if (c === 0) {
